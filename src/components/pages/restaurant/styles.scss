@@ -1,0 +1,55 @@
+.restaurant-page-info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    .carousel-wrap {
+        padding: 20px 0 0 0;
+        height: 300px;
+        width: 100%;
+        .carousel-img{
+            height: 300px;
+            width: auto;
+        }
+    }
+    .restaurant-info {
+        margin-top: 15px;
+        .name-rating {
+            display: flex;
+            align-items: center;
+            h2 {
+                padding: 0 15px;
+                margin-top: 15px;
+            }
+        }
+        .text-info {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            b {
+                margin-right: 10px;
+            }
+        }
+        .reviews-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            margin-top: 25px;
+        }
+        .add-comment-wrap {
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+            margin-bottom: 50px;
+            .comment-form{
+                width: 50%;
+            }
+            .comment-btn{
+                margin-top: 15px;
+                width: 15%;
+            }
+        }
+    }
+}

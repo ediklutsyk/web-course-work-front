@@ -1,0 +1,23 @@
+.review-item {
+    display: flex;
+    //border: 1px solid #c3c3c3;
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    .avatar{
+        margin-top: 5px;
+    }
+    .review-info {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        .name-date {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            .name {
+                margin-right: 10px;
+            }
+        }
+    }
+}

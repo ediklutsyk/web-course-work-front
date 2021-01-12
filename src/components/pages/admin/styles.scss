@@ -1,0 +1,47 @@
+.restaurant-list-wrapper {
+  padding: 20px 10px 0;
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+
+  .add-restaurant-btn {
+    margin-left: auto;
+  }
+}
+
+.add-restaurant-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+
+  .step {
+    border: 1px solid #c3c3c3;
+    padding: 15px;
+    margin: 15px 15px 0 15px;
+
+    .title-step {
+      font-weight: bold;
+      margin-bottom: 15px;
+      width: calc(100% - 30px);
+      background-color: #ffbf00;
+      padding: 15px;
+    }
+
+    .form-wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .row-form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .form-title {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
